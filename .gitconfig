@@ -17,8 +17,9 @@
     changed = green
     untracked = cyan
 [user]
-	name = Fredrik Jönsson
-	email = fredrik.jonsson@izettle.com
+	name = Fredrik Grönqvist
+	email = fredrik.gronqvist@soundtrackyourbrand.com
+	signingkey = 93A7BFD456C47B0B
 [branch]
        autosetupmerge = true
 [push]
@@ -37,3 +38,5 @@
     ls = ls-files
     locate = "!f() { git ls-tree -r --name-only HEAD | grep --color -i -E $1 - ; } ; f"
     branch-dates = "!f() { git for-each-ref --sort=committerdate refs/${1:-heads}/ --format='%(committerdate:short)\t%(authorname)\t%(refname:short)' | sed 's_origin/__g' | column -t -s'      ' ; } ; f"
+[url "git@github.com:"]
+	insteadOf = https://github.com/
