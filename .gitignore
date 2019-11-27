@@ -1,1 +1,9 @@
 .DS_Store
+*.egg-info
+*~
+*.pyc
+venv/*
+*.iml
+.idea
+__pycache__/
+**/.terraform/*

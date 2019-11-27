@@ -18,14 +18,14 @@
     untracked = cyan
 [user]
 	name = Fredrik Grönqvist
-	email = fredrik.gronqvist@soundtrackyourbrand.com
-	signingkey = 93A7BFD456C47B0B
+  email = fjnsson@gmail.com
 [branch]
        autosetupmerge = true
 [push]
        default = current
 [core]
-    editor = vim
+  editor = vim
+  excludesfile = /Users/fg/.gitignore
 [alias]
     co = checkout
     st = status
