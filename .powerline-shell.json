@@ -1,0 +1,22 @@
+{
+  "segments": [
+    "virtual_env",
+    "username",
+    "ssh",
+    {
+      "type": "stdout",
+      "command": ["bash", "-c", "kubectl config current-context | cut -d _ -f 2"],
+      "fg_color": 39,
+      "bg_color": 238
+    },
+    "cwd",
+    "git",
+    "hg",
+    "jobs",
+    "root"
+  ],
+  "cwd": {
+    "mode": "plain",
+    "max_depth": 1
+  }
+}
